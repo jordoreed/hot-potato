@@ -24,7 +24,6 @@ setInterval(() => {
   if (game.countdown <= 0) {
     game.countdown = 10;
     game.loser = game.it;
-    game.it = null;
   } else if (game.countdown === 6) {
     game.loser = null;
   }

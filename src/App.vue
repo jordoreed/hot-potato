@@ -17,7 +17,7 @@
 <script>
 import axios from 'axios';
 
-const SERVER_URL = 'http://localhost:3000';
+const SERVER_URL = 'http://10.10.30.83:3000';
 const ME = 'jordoreed';
 const usernameParam = new URLSearchParams(document.location.search).get('username');
 
